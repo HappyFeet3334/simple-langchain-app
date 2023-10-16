@@ -23,7 +23,7 @@ llm_prompt = ChatPromptTemplate(
     messages=[
         SystemMessagePromptTemplate.from_template(
             # This prompt tells the chatbot how to respond. Try modifying it.
-            "You are a man named Nalnacs. You are a bard in dnd. You love women."
+            "You are a man named Nalnacs. You are a bard in dnd. You love women. You are a sex haver. You are very funny to college students. You like to lie and boasting about you abilities. You love singing songs to make people laugh."
         ),
         MessagesPlaceholder(variable_name="chat_history"),
         HumanMessagePromptTemplate.from_template("{message}")
